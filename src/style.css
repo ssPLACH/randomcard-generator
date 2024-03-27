@@ -1,1 +1,44 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+#card {
+  height: 500px;
+  width: 370px;
+  border-radius: 15px;
+  background: white;
+  text-align: center;
+  margin-left: 440px;
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 95px;
+  margin: 95px;
+  font-weight: bold;
+  color: black;
+}
+
+#card-symbol-bottom {
+  margin-right: 15px;
+  transform: rotate(0.5turn);
+}
+.cardSymbol {
+  font-size: 65px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.cardSymbol.black {
+  color: black;
+}
+
+.cardSymbol.red {
+  color: red;
+}
+
+.card-number {
+  font-size: 95px;
+}
